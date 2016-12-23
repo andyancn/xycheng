@@ -413,16 +413,136 @@ body{
 	text-align: right;
 }
 
+#dept{
+	width: 1144px;
+	height: 256px;	
+	float: left;
+	background-color: #EDEDED;	
+	text-align: center;
+}
+
+#dept ul{	
+	list-style-type: none;	
+	height: 100px;
+	width: 1144px;
+	top: 47px;
+	text-align: center;	
+}
+
+#dept ul li{	
+	margin:0 35px;
+	float: left;
+	list-style-type: none;	
+	text-align: left;
+	width:210px;
+}
+
+#dept ul li p{	
+	margin:5px 0px;	
+	font-size: 14px;
+}
+
+#dept .deptname{
+	border-top: 1px solid #111;
+	border-bottom: 1px solid #111;
+	font-size: 16px;
+	height: 55px;
+	line-height: 3.8;
+}
+
+#help_nav{
+	width: 1144px;
+	height: 256px;	
+	float: left;
+	background-color: #868484;	
+	text-align: center;
+	color: white;
+}
+
+#help_nav ul{
+	list-style-type: none;	
+	height:256px;
+	width: 1144px;	
+	text-align: center;	
+}
+
+#help_nav ul li{	
+	float: left;
+	list-style-type: none;	
+	text-align: left;
+	width:284px;
+	border-left:1px dashed white; 
+	height: 100%;
+}
+
+#help_nav .help_nav_left{
+	border:none;
+}
+
+#help_nav .help_nav_left ul{
+	list-style-type: none;	
+	text-align: center;
+	width:284px;
+	top: -10px;		
+	// height: 100%;
+}
+
+#help_nav .help_nav_left ul li{
+	list-style-type: none;	
+	text-align: center;
+	width:284px;	
+	height:30px;
+	border: none;
+}
+
+#help_nav .help_nav_right ul{
+	list-style-type: none;	
+	text-align: center;
+	width:284px;
+	top: -10px;		
+	// height: 100%;
+}
+
+#help_nav .help_nav_right ul li{
+	list-style-type: none;	
+	text-align: center;
+	width:284px;
+	height:30px;
+	border: none;	
+}
+
+.help_nav_top{	
+	background-color: #4D4B4B;
+	width: 80px;
+	height: 25px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	line-height: 1.5;	
+}
+
+#help_nav .help_nav_left img{
+	width: 75px;
+	height: 75px;	
+}
 
 #footer{
 	width: 1144px;
-	height: 510px;	
-	float: left;	
-	text-align: center;
-	background-image:url(../Image/back_footer.png);
-	background-repeat: no-repeat;	
-	// border: 1px solid #111;
-	// background-color: white;
+	height: 40px;
+	text-align: center;	
+	background-color: #4D4B4B;	
+	float: left;
+	color: white;
+	line-height: 2.5;
+	font-family: 12px/1.5 Microsoft YaHei,
+	font-size: 12px;
+}
+
+
+#footer a{
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
 }
 
 
