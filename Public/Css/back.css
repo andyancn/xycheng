@@ -2,16 +2,24 @@
     position: relative; 
     padding: 0px;
     margin: 0px;
-    vertical-align: middle;
   }
 
 body{
 	margin: 0px auto;
-	width: 1146px;
+	width: 1144px;
 	vertical-align: middle;
 	height: auto;
-	// font-family: 黑体;
-	font-family:黑体,Microsoft YaHei,tahoma,arial,sans-serif;
+	font-family:Microsoft YaHei,tahoma,arial,sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover .p_btn{
+	text-decoration: none;	
+	color: white;
+	background-color: red;
 }
 
 #header{	
@@ -26,14 +34,30 @@ body{
 }
 
 #header .header_top .logo{	
-	width: 395px;
+	width: 397px;
 	height: 115px;
 	background-image:url(../Image/logo.jpg);
 	background-color: #EDEDED;
-	background-position: center;
+	background-position:108px 30px;
 	background-repeat: no-repeat;
 	// border: 1px solid #111;
 	float: left;
+}
+
+#header .header_top .logo P{
+	top: 30px;
+	left: 180px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #9B9B9B99;
+}
+
+#header .header_top .logo .logo_f1{
+	top: 30px;
+	left: 180px;	
+	font-size: 40px;
+	font-weight: 800;
+	color: #000;
 }
 
 #header .header_top .wblogo{
@@ -61,7 +85,7 @@ body{
 #header .header_top .menu ul {	
 	height: 50px;
 	list-style:none;	
-	border-top: 1px solid #111;	
+	border-top: 1px solid #9B9B9B99;	
 	// vertical-align: middle;
 }
 
@@ -73,7 +97,7 @@ body{
 	float: left;
 	background-color: #EDEDED;
 	line-height:3;
-	font-family: 黑体;
+	font-family: Microsoft YaHei;
 	font-size: 18px;
 }
 
@@ -271,7 +295,7 @@ body{
 	float: left;	
 	text-align: center;
 	padding: 70px;
-	font-family: 黑体;
+	font-family: Microsoft YaHei;
 }
 
 #main_space .main_space_1,.main_space_2,.main_space_3,.main_space_4{
@@ -346,7 +370,7 @@ body{
 	background-position: 53px 185px ;
 	// border: 1px solid #111;
 	background-color: #EDEDED;
-	font-family: 黑体;
+	font-family: Microsoft YaHei;
 }
 
 #main_mall .main_space_5{
