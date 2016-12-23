@@ -1,0 +1,14 @@
+{
+    "name": "andy/xycheng",
+    "description": "xycheng website",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "andy",
+            "email": "646491594@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
