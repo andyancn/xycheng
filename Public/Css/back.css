@@ -10,7 +10,8 @@ body{
 	width: 1146px;
 	vertical-align: middle;
 	height: auto;
-	font-family: 黑体;
+	// font-family: 黑体;
+	font-family:黑体,Microsoft YaHei,tahoma,arial,sans-serif;
 }
 
 #header{	
@@ -121,7 +122,7 @@ body{
 	top: 30%;
 	left: 108px;
 	width: 600px;
-	font-family: 微软雅黑;
+	font-family: Microsoft YaHei,tahoma,arial,sans-serif;
 	font-size: 28px;
 	 z-index: 99;
 }
@@ -152,7 +153,7 @@ body{
 	height: 40px;
 	line-height: 3;
 	font-size: 16px;
-	font-family: 微软雅黑;
+	font-family: Microsoft YaHei,tahoma,arial,sans-serif;
 }
 
 #main_carousel .carousel_right{
@@ -328,8 +329,6 @@ body{
 #main_band{
 	width: 1144px;
 	height: 780px;
-	// position: relative;
-	// border: 1px solid #111;
 	background-image:url(../Image/back_band.png);
 	background-repeat: no-repeat;
 	float: left;	
@@ -379,20 +378,42 @@ body{
 	background-position: 53px 185px ;
 	// border: 1px solid #111;
 	background-color: white;
+	font-family: Microsoft YaHei,tahoma,arial,sans-serif;
 }
 
-#main_news .main_news_1,.main_news_2,.main_news_3{
+
+#main_news .main_news_left{
 	top:60px;
-	left:65px;
-	margin: 0;	
-	width: 305px;
+	// left:65px;
+	margin:0 10px;	
+	width: 320px;
 	height: 340px;
-	float: left;
-	border-top: 1px solid #111;
-	border-bottom: 1px solid #111;
+	float: left;	
 	padding-top: 15px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 35px;
+	padding-right: 0px;
+	text-align: left;
+}
+
+#main_news .main_news_left p{
+	width: 308px
+}
+
+#main_news .main_news_right p{
+	width: 308px
+}
+
+#main_news .main_news_right{
+	top:60px;
+	// left:65px;
+	margin:0 10px;	
+	width: 320px;
+	height: 340px;
+	float: left;	
+	border-left: 1px solid #111;	
+	padding-top: 15px;
+	padding-left: 35px;
+	padding-right: 0px;
 	text-align: left;
 }
 
@@ -401,7 +422,7 @@ body{
 	margin-bottom: 10px;
 }
 
-#main_news div ul{
+#main_news ul{
 	list-style-type: none;
 }
 
@@ -411,6 +432,11 @@ body{
 
 #main_news .link{
 	text-align: right;
+}
+#main_news .line{
+	border-bottom: 1px solid #111;
+	width: 300px;
+	top:15px;
 }
 
 #dept{
@@ -534,7 +560,7 @@ body{
 	float: left;
 	color: white;
 	line-height: 2.5;
-	font-family: 12px/1.5 Microsoft YaHei,
+	font-family: Microsoft YaHei,tahoma,arial,sans-serif;
 	font-size: 12px;
 }
 
