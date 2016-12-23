@@ -1,11 +1,11 @@
 {
-    "name": "andy/xycheng",
+    "name": "andyancn/xycheng",
     "description": "xycheng website",
-    "type": "project",
-    "license": "MIT",
+    "type": "porject",
+    "license": "mit",
     "authors": [
         {
-            "name": "andy",
+            "name": "andyancn",
             "email": "646491594@qq.com"
         }
     ],
